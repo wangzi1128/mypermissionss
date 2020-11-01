@@ -17,7 +17,7 @@ ext {
 //               siteUrl       : 'https://github.com/yanzhenjie/AndPermission',
 //               gitUrl        : 'https://github.com/yanzhenjie/AndPermission.git',
 
-               group         : "com.zt3000.huoyun",
+               group         : "com.github.wangzi1128",
 
                packaging     : 'aar',
                name          : 'Permission',
@@ -26,9 +26,9 @@ ext {
                licenseName   : 'The Apache Software License, Version 2.0',
                licenseUrl    : 'http://www.apache.org/licenses/LICENSE-2.0.txt',
 
-               developerId   : 'yanzhenjie1',
-               developerName : 'yanzhenjie1',
-               developerEmail: 'im.yanzhenjie1@gmail.com',
+               developerId   : 'admin',
+               developerName : 'admin',
+               developerEmail: '491492880@qq.com',
 
                binrayLibrary : "permission",
                bintrayRepo   : "maven",

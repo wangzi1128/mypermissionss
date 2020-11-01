@@ -1,0 +1,41 @@
+ext {
+    plugins = [application: 'com.android.application',
+               library    : 'com.android.library',
+               maven      : 'com.github.dcendents.android-maven',
+               bintray    : 'com.jfrog.bintray']
+
+    android = [applicationId    : "com.yanzhenjie.permission.sample",
+               compileSdkVersion: 29,
+               buildToolsVersion: "29.0.2",
+               minSdkVersion    : 14,
+               targetSdkVersion : 29,
+               versionCode      : 108,
+               versionName      : "2.0.3"]
+
+    bintray = [version       : "2.0.3",
+
+//               siteUrl       : 'https://github.com/yanzhenjie/AndPermission',
+//               gitUrl        : 'https://github.com/yanzhenjie/AndPermission.git',
+
+               group         : "com.zt3000.huoyun",
+
+               packaging     : 'aar',
+               name          : 'Permission',
+               description   : 'Permission manager for Android',
+
+               licenseName   : 'The Apache Software License, Version 2.0',
+               licenseUrl    : 'http://www.apache.org/licenses/LICENSE-2.0.txt',
+
+               developerId   : 'yanzhenjie1',
+               developerName : 'yanzhenjie1',
+               developerEmail: 'im.yanzhenjie1@gmail.com',
+
+               binrayLibrary : "permission",
+               bintrayRepo   : "maven",
+               bintrayUser   : 'yolanda1',
+               bintrayLicense: "Apache-2.0"]
+
+    dependencies = [
+        fragment: 'androidx.appcompat:appcompat:1.1.0'
+    ]
+}
